@@ -1,0 +1,26 @@
+\t (00:00:10) allegro 22.1 P001 Windows SPB 64-bit Edition
+\t (00:00:10)     Journal start - Fri May  9 10:36:05 2025
+\t (00:00:10)         Host=LAPTOP-UI3E7IRP User=Japhe Pid=5184 CPUs=8
+\t (00:00:10) CmdLine= C:\Cadence\SPB_22.1\tools\bin\allegro.exe
+\t (00:00:10) 
+   (00:00:11) Loading axlcore.cxt 
+\t (00:00:11) Starting new design...
+\i (00:00:12) trapsize 116667
+\i (00:00:12) updateport CVPane
+\i (00:00:12) shapeedit 
+\i (00:00:36) pop dyn_option_select 'Application Mode@:@Placement Edit' 
+\i (00:00:36) placementedit 
+\i (00:01:24) setwindow form.mini
+\i (00:01:24) FORM mini class ANALYSIS 
+\i (00:01:25) FORM mini class 'ANTI ETCH' 
+\i (00:01:28) FORM mini class 'PACKAGE GEOMETRY' 
+\i (00:01:30) FORM mini plcman_button  
+\i (00:01:30) setwindow pcb
+\i (00:01:30) placementedit 
+\i (00:01:30) place manual 
+\i (00:01:31) setwindow form.plc_manual
+\i (00:01:31) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:34) FORM plc_manual advanced_settings  
+\i (00:02:33) setwindow pcb
+\i (00:02:33) exit 
+\t (00:02:33)     Journal end - Fri May  9 10:38:28 2025

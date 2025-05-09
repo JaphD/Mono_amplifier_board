@@ -1,0 +1,139 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../OneDrive/Desktop/Other/PCB/Mono_amplifier/allegro/mono_amplifier.brd  |
+|                                                    Fri May  9 10:38:31 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C3.2           C4.2           J1.1           
+                                 LS1.N          R2.3           U1.2           
+                                 U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00570       pins ADDED TO this new net
+                                 J1.2           R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00617       pins ADDED TO this new net
+                                 J1.3           R1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00621       pins ADDED TO this new net
+                                 R1.2           R2.1           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00712       pins ADDED TO this new net
+                                 C1.1           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00727       pins ADDED TO this new net
+                                 C1.2           R4.2           U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00766       pins ADDED TO this new net
+                                 BT1.+          U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00853       pins ADDED TO this new net
+                                 C4.1           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00937       pins ADDED TO this new net
+                                 C2.P           C3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00952       pins ADDED TO this new net
+                                 C2.N           LS1.P          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../OneDrive/Desktop/Other/PCB/Mono_amplifier/allegro/mono_amplifier.brd  |
+|                                                    Fri May  9 10:38:31 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 352210KJT_RESC6332X120N_352210KJT
+ BA9VPC_BAT_BA9VPC_BA9VPC
+ C1210V104KCRACTU_CAPC3225X280_C1210V104KCRACTU
+ KAAG20008C-10A_SPKR_KAAG20008C-10A_KAAG20008C-10A
+ LM386N-4NOPB_DIP794W45P254L959H508Q8_LM386N-4NOPB
+ PCV1V101MCL1GS_CAPAE1030X1000N_PCV1V101MCL1GS
+ PT01-D125D-B103_TRIM_PT01-D125D-B103_PT01-D125D-B103
+ SJ1-3523N_CUI_SJ1-3523N_SJ1-3523N
+ UPM1E102MHD1TO_CAPPRD500W80D1250H2700_UPM1E102MHD1TO
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../OneDrive/Desktop/Other/PCB/Mono_amplifier/allegro/mono_amplifier.brd  |
+|                                                    Fri May  9 10:38:31 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BT1                 BA9VPC_BAT_BA9VPC_BA9VPC 
+ C1                  C1210V104KCRACTU_CAPC3225X280_C1210V104KCRACTU 
+ C2                  UPM1E102MHD1TO_CAPPRD500W80D1250H2700_UPM1E102MHD1TO 
+ C3                  C1210V104KCRACTU_CAPC3225X280_C1210V104KCRACTU 
+ C4                  PCV1V101MCL1GS_CAPAE1030X1000N_PCV1V101MCL1GS 
+ J1                  SJ1-3523N_CUI_SJ1-3523N_SJ1-3523N 
+ LS1                 KAAG20008C-10A_SPKR_KAAG20008C-10A_KAAG20008C-10A 
+ R1                  352210KJT_RESC6332X120N_352210KJT 
+ R2                  PT01-D125D-B103_TRIM_PT01-D125D-B103_PT01-D125D-B103 
+ R3                  352210KJT_RESC6332X120N_352210KJT 
+ R4                  352210KJT_RESC6332X120N_352210KJT 
+ U1                  LM386N-4NOPB_DIP794W45P254L959H508Q8_LM386N-4NOPB 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../OneDrive/Desktop/Other/PCB/Mono_amplifier/allegro/mono_amplifier.brd  |
+|                                                    Fri May  9 10:38:31 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BT1.-                          PRIM_FILE      .\pstchip.dat
+ BT1.-                          XY             (531,232)
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           XY             (363,315)
+ C2.P                           PRIM_FILE      .\pstchip.dat
+ C2.P                           XY             (724,323)
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           XY             (697,360)
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           XY             (660,370)
+ J1.3                           PRIM_FILE      .\pstchip.dat
+ J1.3                           XY             (67,242)
+ LS1.P                          PRIM_FILE      .\pstchip.dat
+ LS1.P                          XY             (775,358)
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           XY             (200,251)
+ R2.3                           PRIM_FILE      .\pstchip.dat
+ R2.3                           XY             (291,305)
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           XY             (203,285)
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           XY             (428,374)
+ U1.6                           PRIM_FILE      .\pstchip.dat
+ U1.6                           XY             (508,294)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../OneDrive/Desktop/Other/PCB/Mono_amplifier/allegro/mono_amplifier.brd  |
+|                                                    Fri May  9 10:38:31 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      27                                        |
+|       Comp definitions added:       9                                        |
+|       Components added      :      12                                        |
+|       Slot property added   :      24                                        |
+|                                                                              |
+|   Total ECO changes reported:      72                                        |
+|------------------------------------------------------------------------------|

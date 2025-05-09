@@ -1,6 +1,6 @@
 (ExpressProject "Mono_amplifier"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 P001 (4063652)  [10/6/2022]-[05/07/25]")
+  (SoftwareVersion "22.1 P001 (4063652)  [10/6/2022]-[05/09/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -11,9 +11,99 @@
     (File ".\mono_amplifier.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Layout")
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "FALSE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "FALSE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "FALSE")
+    (DRC_Check_Missing_Pin_Numbers_Online "FALSE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\MONO_AMPLIFIER.DRC")
+    (Display_Online_DRC_Results "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\mono_amplifier.brd"))
+  (Folder "Layout"
+    (File ".\allegro\mono_amplifier.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\mono_amplifier.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\mono_amplifier.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
@@ -23,8 +113,73 @@
     (Folder "Include Files"
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
-  (Folder "Logs")
-  (PartMRUSelector)
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Japhe\OneDrive\Desktop\Other\PCB\Mono_amplifier\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Japhe\OneDrive\Desktop\Other\PCB\Mono_amplifier\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Japhe\OneDrive\Desktop\Other\PCB\Mono_amplifier\allegro\eco.txt")))
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C1210V104KCRACTU
+      (FullPartName "C1210V104KCRACTU.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\C1210V104KCRACTU\C1210V104KCRACTU.OLB")
+      (DeviceIndex "0"))
+    (352210KJT
+      (FullPartName "352210KJT.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\352210KJT\352210KJT.OLB")
+      (DeviceIndex "0"))
+    (KAAG20008C-10A
+      (FullPartName "KAAG20008C-10A.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\KAAG20008C-10A\KAAG20008C-10A.OLB")
+      (DeviceIndex "0"))
+    (BA9VPC
+      (FullPartName "BA9VPC.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\BA9VPC\BA9VPC.OLB")
+      (DeviceIndex "0"))
+    (LM386N-4NOPB
+      (FullPartName "LM386N-4NOPB.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\LM386N-4_NOPB\LM386N-4NOPB.OLB")
+      (DeviceIndex "0"))
+    (PCV1V101MCL1GS
+      (FullPartName "PCV1V101MCL1GS.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\PCV1V101MCL1GS\PCV1V101MCL1GS.OLB")
+      (DeviceIndex "0"))
+    (PT01-D125D-B103
+      (FullPartName "PT01-D125D-B103.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\PT01-D125D-B103\PT01-D125D-B103.OLB")
+      (DeviceIndex "0"))
+    (SJ1-3523N
+      (FullPartName "SJ1-3523N.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\SJ1-3523N\SJ1-3523N.OLB")
+      (DeviceIndex "0"))
+    (UPM1E102MHD1TO
+      (FullPartName "UPM1E102MHD1TO.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\UPM1E102MHD1TO\UPM1E102MHD1TO.OLB")
+      (DeviceIndex "0"))
+    (UVR2A0R1MDD
+      (FullPartName "UVR2A0R1MDD.Normal")
+      (LibraryName
+         "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\PARTS\UVR2A0R1MDD\UVR2A0R1MDD.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
@@ -34,18 +189,17 @@
          "C:\Users\Japhe\OneDrive\Desktop\Other\PCB\Mono_amplifier\mono_amplifier.dsn"
          "SCHEMATIC1")
       (Select "Design Resources"
-         "C:\Users\Japhe\OneDrive\Desktop\Other\PCB\Mono_amplifier\mono_amplifier.dsn"
-         "SCHEMATIC1" "PAGE1"))
+         "C:\Users\Japhe\OneDrive\Desktop\Other\PCB\Mono_amplifier\mono_amplifier.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 531"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 508"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 549")
+        (Placement "44 0 1 -1 -1 0 0 5 1290 24 549")
         (Scroll "-141 0")
         (Zoom "100")
         (Occurrence "/"))
@@ -53,4 +207,6 @@
          "C:\USERS\JAPHE\ONEDRIVE\DESKTOP\OTHER\PCB\MONO_AMPLIFIER\MONO_AMPLIFIER.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "Japhe"))
+  (MPSSessionName "Japhe")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\Japhe\OneDrive\Desktop\Other\PCB\Mono_amplifier\Parts\C1210V104KCRACTU"))

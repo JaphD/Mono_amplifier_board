@@ -1,0 +1,142 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 22.1.0 d001May-09-2025 at 11:03:53 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='MONO_AMPLIFIER';
+ POST_TIME='Oct  6 2022 20:42:06';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BT1 'BA9VPC_BAT_BA9VPC_BA9VPC':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS235@BA9VPC.BA9VPC.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins235@ba9vpc.\ba9vpc.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins235@ba9vpc.\ba9vpc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(531,232)',
+ SECTION='';
+
+PART_NAME
+ C1 'C1210V104KCRACTU_CAPC3225X280_C1210V104KCRACTU':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS501@C1210V104KCRACTU.C1210V104KCRACTU.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins501@c1210v104kcractu.\c1210v104kcractu.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins501@c1210v104kcractu.\c1210v104kcractu.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(363,315)',
+ SECTION='';
+
+PART_NAME
+ C2 'UPM1E102MHD1TO_CAPPRD500W80D1250H2700_UPM1E102MHD1TO':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS74@UPM1E102MHD1TO.UPM1E102MHD1TO.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins74@upm1e102mhd1to.\upm1e102mhd1to.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins74@upm1e102mhd1to.\upm1e102mhd1to.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(724,323)',
+ SECTION='';
+
+PART_NAME
+ C3 'C1210V104KCRACTU_CAPC3225X280_C1210V104KCRACTU':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS476@C1210V104KCRACTU.C1210V104KCRACTU.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins476@c1210v104kcractu.\c1210v104kcractu.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins476@c1210v104kcractu.\c1210v104kcractu.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(697,360)',
+ SECTION='';
+
+PART_NAME
+ C4 'PCV1V101MCL1GS_CAPAE1030X1000N_PCV1V101MCL1GS':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS157@PCV1V101MCL1GS.PCV1V101MCL1GS.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins157@pcv1v101mcl1gs.\pcv1v101mcl1gs.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins157@pcv1v101mcl1gs.\pcv1v101mcl1gs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(660,370)',
+ SECTION='';
+
+PART_NAME
+ J1 'SJ1-3523N_CUI_SJ1-3523N_SJ1-3523N':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS101@SJ1-3523N.SJ1-3523N.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins101@\sj1-3523n\.\sj1-3523n.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins101@\sj1-3523n\.\sj1-3523n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(67,242)',
+ SECTION='';
+
+PART_NAME
+ LS1 'KAAG20008C-10A_SPKR_KAAG20008C-10A_KAAG20008C-10A':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS285@KAAG20008C-10A.KAAG20008C-10A.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins285@\kaag20008c-10a\.\kaag20008c-10a.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins285@\kaag20008c-10a\.\kaag20008c-10a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(775,358)',
+ SECTION='';
+
+PART_NAME
+ R1 '352210KJT_RESC6332X120N_352210KJT':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS418@352210KJT.352210KJT.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins418@\352210kjt\.\352210kjt.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins418@\352210kjt\.\352210kjt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(200,251)',
+ SECTION='';
+
+PART_NAME
+ R2 'PT01-D125D-B103_TRIM_PT01-D125D-B103_PT01-D125D-B103':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS130@PT01-D125D-B103.PT01-D125D-B103.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins130@\pt01-d125d-b103\.\pt01-d125d-b103.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins130@\pt01-d125d-b103\.\pt01-d125d-b103.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(291,305)',
+ SECTION='';
+
+PART_NAME
+ R3 '352210KJT_RESC6332X120N_352210KJT':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS260@352210KJT.352210KJT.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins260@\352210kjt\.\352210kjt.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins260@\352210kjt\.\352210kjt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(203,285)',
+ SECTION='';
+
+PART_NAME
+ R4 '352210KJT_RESC6332X120N_352210KJT':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS434@352210KJT.352210KJT.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins434@\352210kjt\.\352210kjt.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins434@\352210kjt\.\352210kjt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(428,374)',
+ SECTION='';
+
+PART_NAME
+ U1 'LM386N-4NOPB_DIP794W45P254L959H508Q8_LM386N-4NOPB':;
+
+SECTION_NUMBER 1
+ '@MONO_AMPLIFIER.SCHEMATIC1(SCH_1):INS194@LM386N-4NOPB.LM386N-4NOPB.NORMAL(CHIPS)':
+ C_PATH='@mono_amplifier.schematic1(sch_1):ins194@\lm386n-4nopb\.\lm386n-4nopb.normal\(chips)',
+ P_PATH='@mono_amplifier.schematic1(sch_1):page1_ins194@\lm386n-4nopb\.\lm386n-4nopb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(508,294)',
+ SECTION='';
+
+END.
